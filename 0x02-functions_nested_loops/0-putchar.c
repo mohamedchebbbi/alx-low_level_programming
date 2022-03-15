@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - entry point.use only user defind variable to create outpout.
+ * main - Entry Point.use only user defined variable to create outpout.
  *
- * description : point main.h using predefined functions
+ * Description: Print _putchar using predefined functions
  *
- * return 0
+ * Return: 0
  */
 int main(void)
 {
