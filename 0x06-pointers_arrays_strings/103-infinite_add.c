@@ -54,4 +54,15 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			return (0);
 		a = 0;
 		b = 0;
-
+		if (l1 >= 0)
+			a = n1[l1] - '0';
+		if (l2 >= 0)
+			b = n2[l2] - '0';
+		a = a + b + c;
+		c = a / 10;
+		a %= 10;
+		r[i] = a + '0';
+	}
+	r[i] = '\0';
+	return (rev_string(r));
+}
